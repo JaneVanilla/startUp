@@ -84,11 +84,11 @@ $('.latestWorks-block9').hover(function() {
 	     responsive:{
         0:{
             items:1,
-            nav:false
+            nav:true
         },
          500:{
             items:3,
-            nav:false
+            nav:true
         },
         800:{
             items:4,
