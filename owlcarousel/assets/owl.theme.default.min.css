@@ -55,6 +55,7 @@
   display:inline-block;
   cursor:pointer;
   border-radius:3px;
+  margin-right: -10px;
  
 }
 .owl-theme .owl-nav [class*=owl-]:hover{
