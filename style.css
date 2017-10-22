@@ -318,20 +318,33 @@ img {
 }
 .slider2 {
 	background: #F8F8F8;
+	
 }
 .slider2__brend {
 	margin: 0 auto;
 	padding: 0;
 	list-style: none;
 	text-align: center;
-	width: 100%;
+	vertical-align: bottom;
 	margin-bottom: 70px;
 	
 }
 .slider2__brend li {
 	display: inline-block;
-	margin-right: 55px;
-	vertical-align: middle;
+	margin-right: 40px;
+	margin-bottom: 20px;
+	vertical-align: bottom;
+    text-align: center;
+	width: 160px;
+	
+	
+	
+}
+.slider2__brend--img1 {
+	background-image: url(img/brend1.png);
+	background-size: contain ;
+	background-repeat: no-repeat;
+
 }
 .slider__text {
     text-align: center;
@@ -425,6 +438,7 @@ img {
 .slider2__brend {
 	margin: 0 auto;
     text-align: center;
+    margin-left: 65px;
 }
 .item {
 	margin: 0 auto;
@@ -452,7 +466,7 @@ img {
 	top: 70px
 }
 .social-list {
-	margin: 0;
+	margin: 0 auto;
 	padding: 0;
 	list-style: none;
 	font-size: 0;
@@ -461,12 +475,15 @@ img {
 	display: inline-block;
 	font-size: 15px;
 	margin-right: 10px;
+	
 }
 .social-links {
+	display: block;	
 	color: #FFF;
-	padding: 10px 13px;
+	padding: 10% 30%;
 	border: 3px solid white;
 	border-radius: 50%;
+	text-align: center;
 }
 .footer-text {
 	margin: 0;
@@ -533,9 +550,10 @@ img {
 	float: none;
 	padding-bottom: 20px;
 }
+
 .slider2__brend li {
-	margin-bottom: 15px;
-	margin-left: 15px;
+	
+	margin-left: 5px;
 }
 .slider__text {
 	margin-top: 40px;
