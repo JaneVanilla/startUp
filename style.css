@@ -479,7 +479,7 @@ img {
 	
 }
 .social-links {
-	display: block;	
+	display: inline-block;	
 	color: #FFF;
 	padding: 10% 30%;
 	border: 3px solid white;
